@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import "./index.css"
 // let UserGreeting = (props) => {
 //     return <h1>Welcome back!</h1>;
 // }
@@ -64,9 +64,8 @@ class LoginControl extends React.Component {
         }
 
         return (
-            <div>
-                {button}
-                {user.length > 0 && 
+            <div className="myDiv">
+                {isLoggedIn.length > 0 && 
                     <h2>
                         You are awesome
                     </h2>
