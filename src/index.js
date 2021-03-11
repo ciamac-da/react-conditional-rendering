@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./index.css"
+import "./index.css";
 // let UserGreeting = (props) => {
 //     return <h1>Welcome back!</h1>;
 // }
